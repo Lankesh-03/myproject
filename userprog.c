@@ -1,10 +1,6 @@
 #include<stdio.h>
 int main()
 {
-        #ifdef USE_SYSCALL
-	        write(1, "Hello system call", 17);
-	#else
-		printf("Hello world\n");
-	#endif
+	printf("Hello world\n");
 	return 0;
 }
